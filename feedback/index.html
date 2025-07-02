@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Application Form</title>
+    <title>Feedback</title>
 </head>
 <body>
 <div class="container">
@@ -16,24 +16,24 @@
         <input type="email" id="email">
         <br>
         <select id="position">
-            <option value="plumber">Plumber</option>
-            <option value="firefighter">Firefighter</option>
-            <option value="stick-gatherer">Stick Gatherer</option>
+            <option value="employer/recruiter">Employer/Recruiter</option>
+            <option value="peer">Peer</option>
+            <option value="no-affiliation">No affiliation</option>
             </select>
         <br>
         <fieldset class="radio-group">
-
-<input type="radio" id="contractor" name="availability" value="contractor" required>
-<label for="contractor">Contractor</label>
-<input type="radio" id="part-time" name="availability" value="part-time" required>
-<label for="part-time">Part-time</label>
-<input type="radio" id="full-time" name="availability"  value="full-time" required>
-<label for="full-time">Full-time</label>
+Opinion of my portfolio?
+<input type="radio" id="good" name="availability" value="good" required>
+<label for="good">Good</label>
+<input type="radio" id="okay" name="availability" value="okay" required>
+<label for="okay">Okay</label>
+<input type="radio" id="bad" name="availability"  value="bad" required>
+<label for="bad">Bad</label>
         </fieldset>
-            <textarea id="message"></textarea>
+            <textarea id="message" placeholder="Any extra comments?"></textarea>
             <br>
-                <button type="submit" id"submit">
-                <label for"submit">submit</label>
+                <button type="submit" id="submit">
+                <label for="submit">submit</label>
         </form>
     </div>
 </body>
